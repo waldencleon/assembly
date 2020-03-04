@@ -3,5 +3,4 @@ If you are developing on x64 CPU, ensure that you detail in your make file that 
 Example:
 
 
-nasm -f elf -g -F stabs eatsyscall.asm
 Ld -o <executablename> sandbox.o -melf_i386
